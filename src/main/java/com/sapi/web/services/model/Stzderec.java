@@ -18,7 +18,7 @@ public class Stzderec implements Serializable {
     private String solicitud;
 	
     @Column(name = "fecha_solic")
-	private Date fechaSolicitus;
+	private Date fechaSolicitud;
     
     @Column(name = "tipo_mp")
     private String tipomp;
@@ -38,12 +38,12 @@ public class Stzderec implements Serializable {
 		this.solicitud = solicitud;
 	}
 
-	public Date getFechaSolicitus() {
-		return fechaSolicitus;
+	public Date getFechaSolicitud() {
+		return fechaSolicitud;
 	}
 
-	public void setFechaSolicitus(Date fechaSolicitus) {
-		this.fechaSolicitus = fechaSolicitus;
+	public void setFechaSolicitud(Date fechaSolicitud) {
+		this.fechaSolicitud = fechaSolicitud;
 	}
 
 	public String getTipomp() {

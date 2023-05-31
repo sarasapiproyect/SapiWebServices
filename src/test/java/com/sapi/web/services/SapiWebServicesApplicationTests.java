@@ -1,4 +1,4 @@
-package com.sapi.sapi.web.services;
+package com.sapi.web.services;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

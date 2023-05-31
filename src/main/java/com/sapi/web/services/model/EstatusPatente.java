@@ -14,7 +14,7 @@ public class EstatusPatente implements Serializable {
 		
 
     @Column(name = "fecha_solic")
-	private Date fechaSolicitus;
+	private Date fechaSolicitud;
     
     @Column(name = "titulo")
     private String titulo;
@@ -26,12 +26,12 @@ public class EstatusPatente implements Serializable {
     @Column(name = "descripcion")
     private String descripcion;
 
-	public Date getFechaSolicitus() {
-		return fechaSolicitus;
+	public Date getFechaSolicitud() {
+		return fechaSolicitud;
 	}
 
-	public void setFechaSolicitus(Date fechaSolicitus) {
-		this.fechaSolicitus = fechaSolicitus;
+	public void setFechaSolicitus(Date fechaSolicitud) {
+		this.fechaSolicitud = fechaSolicitud;
 	}
 
 	public String getTitulo() {

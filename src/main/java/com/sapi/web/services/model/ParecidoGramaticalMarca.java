@@ -17,7 +17,7 @@ public class ParecidoGramaticalMarca implements Serializable {
     private String solicitud;
 	
     @Column(name = "fecha_solic")
-	private Date fechaSolicitus;
+	private Date fechaSolicitud;
     
     @Column(name = "nombre")
     private String nombre;
@@ -35,12 +35,12 @@ public class ParecidoGramaticalMarca implements Serializable {
 		this.solicitud = solicitud;
 	}
 
-	public Date getFechaSolicitus() {
-		return fechaSolicitus;
+	public Date getFechaSolicitud() {
+		return fechaSolicitud;
 	}
 
-	public void setFechaSolicitus(Date fechaSolicitus) {
-		this.fechaSolicitus = fechaSolicitus;
+	public void setFechaSolicitud(Date fechaSolicitud) {
+		this.fechaSolicitud = fechaSolicitud;
 	}
 
 	public String getNombre() {
