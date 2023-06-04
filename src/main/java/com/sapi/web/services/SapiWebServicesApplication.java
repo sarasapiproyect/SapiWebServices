@@ -11,9 +11,9 @@ public class SapiWebServicesApplication {
 
 	public static void main(String[] args) {
             SpringApplication.run(SapiWebServicesApplication.class, args);
-            LOGGER.info("Info level log message");
-            LOGGER.debug("Debug level log message");
-            LOGGER.error("Error level log message");
+            LOGGER.info("Inicio SapiWebServicesApplication");
+            LOGGER.debug("Inicio SapiWebServicesApplication");
+            LOGGER.error("Error en Inicio SapiWebServicesApplication");
 	}
 
 }
